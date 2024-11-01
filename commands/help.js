@@ -7,7 +7,6 @@ async function helpCommand(sock, chatId, channelLink) {
    *🤖 ${settings.botName || 'WhatsApp Bot'}*  
    Version: *${settings.version || '1.0.0'}*
    by ${settings.botOwner || 'Unknown Owner'}
-   YT : ${ytch}
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -74,7 +73,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .topmembers
 ╚═══════════════════╝
 
-${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'No channel link available'}
 
 @${settings.botName || 'KnightBot'} 2024 v${settings.version || '1.0.0'}
 `;
