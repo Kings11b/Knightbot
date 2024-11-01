@@ -6,7 +6,7 @@ BEGIN:VCARD
 VERSION:3.0
 FN:${settings.botOwner}
 TEL;waid=${settings.ownerNumber}:${settings.ownerNumber}
-END:VCARD
+king
 `;
 
     await sock.sendMessage(chatId, {
