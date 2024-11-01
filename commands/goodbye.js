@@ -3,7 +3,7 @@ async function sayGoodbye(sock, chatId, removedMembers) {
     removedMembers.forEach((member) => {
         goodbyeText += `@${member.split('@')[0]} `;
     });
-    goodbyeText += '👋 We will never miss you!';
+    goodbyeText += '👋 bye wir werden dich vermissen!';
 
     await sock.sendMessage(chatId, {
         text: goodbyeText,
