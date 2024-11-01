@@ -6,7 +6,9 @@ async function welcomeNewMembers(sock, chatId, newMembers) {
     newMembers.forEach((member) => {
         welcomeText += `@${member.split('@')[0]} `;
     });
-    welcomeText += 'to the group! 🎉';
+    welcomeText += '🌟 Willkommen! 🌟
+
+Schön, dass du hier bist! Wir freuen uns, dich in unserer Gemeinschaft begrüßen zu dürfen. Hier findest du spannende Gespräche, hilfreiche Informationen und viele nette Menschen. Wenn du Fragen hast oder Hilfe benötigst, zögere nicht, dich zu melden. Viel Spaß und eine tolle Zeit!! 🎉';
 
     // Send the welcome message
     await sock.sendMessage(chatId, {
